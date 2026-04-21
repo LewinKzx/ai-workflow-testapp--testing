@@ -9,7 +9,7 @@ import os
 
 genai.configure(api_key=os.getenv("AIzaSyA4P7DtKYiN8rUE5lws-ehj4l9UGSfL1Us"))
 
-model = genai.GenerativeModel("gemini-1.5-flash")
+model = genai.GenerativeModel("gemini-1.5-pro")
 
 # ==========================================
 # 2. DATABASE SETUP (SQLite)
